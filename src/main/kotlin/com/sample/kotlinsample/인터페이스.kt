@@ -14,3 +14,6 @@ class Button: Clickable{//: 으로 상속과 구현 모두를 표현하게 바�
 fun main(){
     Button().click()//클래스 선언을 하고 메서드 호출
 }
+
+// 코틀린의 상속은 기본적으로 final == 상속 불가능으로 막혀 있으며 open으로 권한을 열어 주거나
+// 코틀린 문법 open 상속 가능, final 상속 불가능 abstarct <- 처럼 무조건 해야하는 걸로 나뉜다.
